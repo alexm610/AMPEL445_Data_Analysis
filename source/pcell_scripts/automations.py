@@ -11,10 +11,10 @@ within custom layout scripts. For users to import this module,
 a copy of this file must be placed in 
 the 'python' folder of the user's KLayout 
 installation. 
-A symbolic link is recommended, in case
+A hardlink is recommended, in case
 the user wishes to modify this file in their
 working folder.
-Locations to be added to:
+Locations this file is to be added to:
     - MacOS:
         /Users/<username>/.klayout/python
     - Windows:
